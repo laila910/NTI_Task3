@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-size: 16px;
 }
 
 #div1 {
@@ -49,18 +50,57 @@ body {
     background-color: #CCCCCC;
     padding-left: 10px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#container p {
+    color: #353336;
+}
+
+#container ul {
+    color: #353336;
 }
 
 #div31 img {
     width: 99%;
 }
 
-#div32 h1 {
+#div32 #div321 h1,
+#div32 #div322 h1,
+#div32 div h5 span {
     color: #3399FE;
     text-transform: uppercase;
 }
 
+#div32 #div321 h1,
+#div32 #div322 h1 {
+    border-bottom: 1px solid #999999;
+}
+
 #div321 {
-    border-top: 1px solid #CCCCCC;
+    float: left;
+    width: 70%;
+}
+
+#div322 {
+    float: right;
+    width: 25%;
+}
+
+#div322 h5 {
+    color: #F86601;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+#div323 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#div3211 img {
+    outline-offset: 5px;
+    outline: 1px solid white;
+    margin-left: 10px;
+    margin-right: 30px;
 }
